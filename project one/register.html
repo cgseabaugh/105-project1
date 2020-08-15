@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register-style.css">
+    <title>Register</title>
+</head>
+<body>
+    
+    <header>
+        <section>
+            <nav class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services">Services</a>
+                    <a href="register">Register</a>
+            </nav>
+        </section>
+        <h1 class="title">Fauna Fashionista</h1>
+    </header>
+
+    
+
+    <main id="main">
+        <form action="">
+            <p>
+                <label>Pet's Name: </label>
+                <input type="text" name="pname" id="petName" >
+            </p>
+            <p>
+                <label>Pet's Age: </label>
+                <input type="text" name="age" id="petAge" >
+            </p>
+            <p>
+                <label for="petType">Pet Type:</label>
+                <select name="petType" id="petType">
+                    <option value="" disabled selected>---Select a Type---</option>
+                    <option value="Dog">Dog</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Bird">Bird</option>
+                    <option value="Reptile">Reptile</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>
+                <label>Breed: </label>
+                <input type="text" name="breed" id="petBreed" >
+            </p>
+            <p>
+                <label for="gender">Gender:</label>
+                <select name="gender" id="petGender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </p>
+            <p>
+                <label for="services">Services:</label>
+                <select name="services" id="petService">
+                    <option value="" disabled selected>---Select a Service---</option>
+                    <option value="Shower">Shower</option>
+                    <option value="Hair Cut">Hair Cut</option>
+                    <option value="Nail Trim">Nail Trim</option>
+                    <option value="Full Service">Full Service</option>
+                </select>
+            </p>
+            <p>
+                <label>Owner's Name: </label>
+                <input type="text" name="uname" id="ownerName" >
+            </p>
+            <p>
+                <label>Contact Number: </label>
+                <input type="text" name="contact" id="ownerContact" >
+            </p>
+            <p>
+                <label for="is-good">Are they Good?</label>
+                <select name="is-good" id="isGood">
+                    <option value="" disabled selected>---Select if they're Good---</option>
+                    <option value="is a very good">is a very good!</option>
+                    <option value="is a very good">is a very good!</option>
+                    <option value="is a very good">is a very good!</option>
+                    <option value="is a very good">is a very good!</option>
+                </select>
+            </p>
+            <p>
+                <input type="button" value="Register" onclick="register();">
+            </p>
+        </form>
+    </main>
+
+    <section class="container table-container">
+        <table class="table">
+            <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Type</th>
+                <th>Gender</th>
+                <th>Breed</th>
+                <th>Service</th>
+                <th>Owner's Name</th>
+                <th>Owner's Contact</th>
+                <th>Are they good?</th>
+            </thead>
+            <tbody id="rowPet">
+
+            </tbody>
+        </table>
+    </section>
+
+
+    <footer>
+        <div id="info">
+
+        </div>
+
+        <p id="copyright">Copyright reserved &copy; 2020 CGSEABAUGH</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/directory.js"></script>
+
+</body>
+</html>

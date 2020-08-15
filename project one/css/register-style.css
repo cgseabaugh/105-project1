@@ -1,0 +1,120 @@
+
+body{
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/2/73/kot-koshka-seryi-priroda-zelen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title{
+    font-size: 4rem;
+    color: white;
+    margin-left: 65%;
+    border-left: 5px solid rgb(139, 187, 139);
+    border-bottom: 5px solid rgb(139, 187, 139);
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 5px;
+}
+
+#main{
+    color: white;
+}
+
+.menu{
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: rgb(74, 95, 74);
+    width: 50rem;
+    border: 3px solid rgb(139, 187, 139);
+    border-radius: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.borderTrue{
+    border-right: 3px solid white;
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    background-color: rgb(74, 95, 74);
+    color: white;
+    height: 8rem;
+    width: 100%;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+}
+
+form{
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(74, 95, 74, 0.5);
+    border-radius: 5px;
+    width: 22rem;
+    padding-top: .1rem;
+    padding-right: 1rem;
+    padding-bottom: .1rem;
+    border: 3px solid rgb(139, 187, 139);
+    margin-left: 15rem;
+    margin-bottom: 3rem;
+    text-align: right;
+}
+
+#pets{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+img{
+    max-width: 100%;
+}
+.pet{
+    text-align: center;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    background-color: rgb(74, 95, 74, .5);
+}
+
+#gender-input{
+    display: inline-flex;
+}
+
+h2{
+    border-bottom: 1px solid white;
+    font-size: 2rem;
+    padding-top: -2rem;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+table{
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    background-color: rgb(74, 95, 74, .5);
+    color: white;
+    padding: 1rem;
+}
+th{
+    font-size: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid white;
+}
+thead{
+    
+}
+td{
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+

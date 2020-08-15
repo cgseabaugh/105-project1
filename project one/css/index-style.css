@@ -1,0 +1,63 @@
+body{
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/e/a7/sobaka-shchenok-aussi-tsvety-poliana.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: 4rem;
+    color: white;
+    margin-left: 65%;
+    border-left: 5px solid rgb(139, 187, 139);
+    border-bottom: 5px solid rgb(139, 187, 139);
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 5px;
+}
+
+#info{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 71%;
+    background-color: rgba(74, 95, 74, 0.5);
+    border-radius: 5px;
+    width: 20rem;
+    padding-top: .1rem;
+    padding-left: 1rem;
+    padding-bottom: .1rem;
+    border: 3px solid rgb(139, 187, 139);
+}
+
+.menu{
+    font-size: 2rem;
+    background-color: rgb(74, 95, 74);
+    width: 49rem;
+    border: 3px solid rgb(139, 187, 139);
+    border-radius: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.menu a:hover{
+    background-color: rgb(139, 187, 139);
+    color: rgb(74, 95, 74);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(74, 95, 74);
+    color: white;
+    height: 2.3rem;
+    width: 100%;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+}
+
+
